@@ -1,0 +1,143 @@
+﻿body {
+    background: #f4f6f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 28px 24px 28px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+    .header h2 {
+        margin: 0 0 8px 0;
+        font-size: 2rem;
+        color: #2d3a4a;
+    }
+
+    .header small {
+        color: #6c757d;
+        font-size: 1rem;
+    }
+
+.links {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+    .links a {
+        color: #1976d2;
+        text-decoration: none;
+        margin: 0 8px;
+        font-size: 1rem;
+        transition: color 0.2s;
+    }
+
+        .links a:hover {
+            color: #125ea2;
+            text-decoration: underline;
+        }
+
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+
+.form-label {
+    color: #34495e;
+    font-weight: 500;
+    margin-right: 6px;
+}
+
+.form-control {
+    padding: 7px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f9fafb;
+    transition: border-color 0.2s;
+}
+
+    .form-control:focus {
+        border-color: #1976d2;
+        outline: none;
+        background: #fff;
+    }
+
+.btn {
+    padding: 7px 18px;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+    .btn:hover {
+        background: #125ea2;
+    }
+
+.form-text {
+    font-size: 0.95em;
+    color: #e53935;
+    margin-top: 2px;
+    display: block;
+}
+
+.gridview-container {
+    margin-top: 18px;
+}
+
+.aspNet-GridView {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #fafbfc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+    .aspNet-GridView th, .aspNet-GridView td {
+        padding: 10px 12px;
+        border-bottom: 1px solid #e0e3e7;
+        text-align: left;
+    }
+
+    .aspNet-GridView th {
+        background: #1976d2;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .aspNet-GridView tr:last-child td {
+        border-bottom: none;
+    }
+
+    .aspNet-GridView tr:nth-child(even) td {
+        background: #f4f6f8;
+    }
+
+.no-results {
+    color: #e53935;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+}

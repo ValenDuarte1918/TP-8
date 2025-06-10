@@ -1,0 +1,120 @@
+﻿body {
+    background: #f4f6f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 420px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 28px 24px 28px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+    .header h2 {
+        margin: 0 0 8px 0;
+        font-size: 2rem;
+        color: #2d3a4a;
+    }
+
+    .header small {
+        color: #6c757d;
+        font-size: 1rem;
+    }
+
+.links {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+    .links a {
+        color: #1976d2;
+        text-decoration: none;
+        margin: 0 8px;
+        font-size: 1rem;
+        transition: color 0.2s;
+    }
+
+        .links a:hover {
+            color: #125ea2;
+            text-decoration: underline;
+        }
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #34495e;
+    font-weight: 500;
+}
+
+.form-control {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f9fafb;
+    transition: border-color 0.2s;
+}
+
+    .form-control:focus {
+        border-color: #1976d2;
+        outline: none;
+        background: #fff;
+    }
+
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 8px;
+}
+
+    .btn:hover {
+        background: #125ea2;
+    }
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+    .btn-group .btn {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+.form-text {
+    font-size: 0.95em;
+    color: #e53935;
+    margin-top: 2px;
+    display: block;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: #1976d2;
+    font-size: 1.05em;
+    min-height: 22px;
+}

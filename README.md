@@ -1,6 +1,13 @@
 # Gestión de Sucursales
 
-Este repositorio contiene una solución para la gestión de sucursales, desarrollada en .NET Framework y basada en una arquitectura de programación en 3 capas.
+Este repositorio contiene una solución para la gestión de sucursales, desarrollada en .NET Framework y basada en una arquitectura de programación en 3 capas. 
+Fue desarollado por:
+- Valentin Duarte
+- Ignacio Arnaude
+- Franco David Monzon Lopez
+- Camila Moyano
+- Miguel Armando Velazquez Barreto
+- Nicolas Gabriel Blanco
 
 ## Características
 
@@ -29,3 +36,6 @@ Para inicializar la base de datos necesaria para la aplicación, sigue estos pas
 3. **Configuración de la cadena de conexión:**  
    - Actualiza la cadena de conexión en el archivo de configuración del proyecto (`AccesoDatos`) para apuntar a la base de datos creada.
 
+![img-1](https://github.com/user-attachments/assets/a89c2b8c-9544-4680-9103-960b678cbff2)
+![img-2](https://github.com/user-attachments/assets/3f8a0792-b466-4e55-9436-274665bad0a0)
+![img-3](https://github.com/user-attachments/assets/1c283b63-b4b9-4c3e-8917-1685eea81a49)

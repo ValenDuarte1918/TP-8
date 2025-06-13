@@ -16,7 +16,7 @@
         </div>
         <div class="container">
             <div class="header">
-                <h2>Agregar Sucursal</h2>
+                <h2>Agregar Sucursall</h2>
                 <small>GRUPO Nº12</small>
             </div>
             <div class="form-group">
